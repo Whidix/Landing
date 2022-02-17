@@ -1,10 +1,14 @@
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
+  background-color: #1f2937;
+}
+
+a {
+  color: inherit;
 }
 
 nav {
-  background-color: #1f2937;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,32 +27,31 @@ nav {
   font-size: 18px;
 }
 
-.about {
-  background-color: #1f2937;
+.stripe-c2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 50px 0;
 }
 
-.about-flex {
+.stripe-c2-flex {
   margin: 0 5%;
 }
 
-.about-welcome {
+.stripe-c2-welcome {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
   margin: 0;
 }
 
-.about-text {
+.stripe-c2-text {
   color: #e5e7eb;
   font-size: 18px;
   text-align: justify;
 }
 
-.download {
+.download-cv {
   background-color: #3882f6;
   border: 1px solid #3882f6;
   cursor: pointer;
@@ -61,7 +64,7 @@ nav {
   transform: scale(1.2);
 }
 
-.about-img {
+.stripe-c2-img {
   margin-right: 5%;
 }
 
@@ -69,23 +72,27 @@ img {
   width: 100%;
 }
 
-.skills {
+.stripe-w {
+  background-color: white;
   display: flex;
   flex-flow: column;
   align-items: center;
+  padding-bottom: 50px;
 }
 
-.skills-title {
+.stripe-w-title {
   font-size: 36px;
   color: #1f2937;
+  text-align: center;
 }
 
-.skills-list {
+.stripe-w-list {
   display: flex;
   justify-content: space-evenly;
+  padding: 0;
 }
 
-.skills-item {
+.stripe-w-item {
   display: block;
   list-style-type: none;
   font-size: 5em;
@@ -97,12 +104,16 @@ img {
   transition: 0.5s ease-in-out;
 }
 
-.skills-item:hover {
+.stripe-w-item:hover {
   transform: scale(1.2);
 }
 
 .quote {
   background-color: #e5e7eb;
+}
+
+.quote p {
+  margin: 0;
 }
 
 figure {
@@ -114,6 +125,7 @@ figure {
   font-weight: lighter;
   font-style: italic;
   color: #1f2937;
+  margin: 0;
 }
 
 .quote figcaption {
