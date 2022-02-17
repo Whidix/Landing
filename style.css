@@ -12,7 +12,6 @@ nav {
 }
 
 .nav-logo {
-  color: #f9faf8;
   display: inline-block;
 }
 
@@ -58,7 +57,7 @@ nav {
   transition: 0.5s ease-in-out;
 }
 
-.download:hover {
+.download-cv:hover {
   transform: scale(1.2);
 }
 
