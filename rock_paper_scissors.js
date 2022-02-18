@@ -1,0 +1,42 @@
+const computerPlay = () => {
+  switch (Math.floor(Math.random() * 3)) {
+    case 0:
+      return "ciseaux";
+    case 1:
+      return "feuille";
+    case 2:
+      return "pierre";
+  }
+};
+
+const playRound = (playerSelection, computerSelection) => {
+  if (playerSelection === computerSelection) {
+    return "No winners ! Both losers";
+  } else if (
+    (playerSelection === "pierre" && computerSelection === "ciseaux") ||
+    (playerSelection === "feuille" && computerSelection === "pierre") ||
+    (playerSelection === "ciseaux" && computerSelection === "papier")
+  ) {
+    scores.player++;
+    return "You win !";
+  }
+  scores.computer++;
+  return "You lose";
+};
+
+const scores = {
+  player: 0,
+  computer: 0,
+};
+
+/* for (let gameCount = 1; gameCount <= 5; gameCount++) {
+  const playerSelection = prompt("Pierre / Fauille / Ciseaux").toLowerCase();
+  console.log(playRound(playerSelection, computerPlay()));
+}
+
+if (scores.player > scores.computer) {
+  console.log("You win the game");
+} else if (scores.player < scores.computer) {
+  console.log("You lose");
+}
+console.log("No winners in the end"); */
