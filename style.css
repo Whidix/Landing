@@ -108,6 +108,10 @@ img {
   transform: scale(1.2);
 }
 
+.stripe-w-h3 {
+  text-align: center;
+}
+
 .quote {
   background-color: #e5e7eb;
 }
