@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
-  background-color: #1f2937;
 }
 
 a {
@@ -13,6 +12,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  background-color: #1f2937;
 }
 
 .nav-logo {
@@ -32,13 +32,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 50px 0;
+  background-color: #1f2937;
 }
 
 .stripe-c2-flex {
   margin: 0 5%;
 }
 
-.stripe-c2-welcome {
+.stripe-c2-h1 {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
@@ -101,11 +102,16 @@ img {
   margin: 0 20px;
   border: 1px solid #1f2937;
   border-radius: 20px;
-  transition: 0.5s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 
 .stripe-w-item:hover {
   transform: scale(1.2);
+}
+
+.stripe-w-item:active {
+  transform: scale(1.2);
+  border-color: white;
 }
 
 .stripe-w-h3 {
