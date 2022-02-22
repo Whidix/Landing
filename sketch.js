@@ -11,6 +11,9 @@ resetButton.addEventListener("click", createArea);
 
 function createArea(e) {
   reset();
+  if (numPixel.value > 100) {
+    numPixel.value = 100;
+  }
   const N = numPixel.value;
   const pixel = 500 / N;
   for (let x = 0; x < N * N; x++) {

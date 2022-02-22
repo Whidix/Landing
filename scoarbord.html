@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scoarboard</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="drum.css" />
+    <link rel="stylesheet" href="scoreboard.css" />
     <script
       src="https://kit.fontawesome.com/e97c5f8b1c.js"
       crossorigin="anonymous"
@@ -25,7 +25,22 @@
 
       <section class="stripe-w">
         <h2 class="stripe-w-title">Scoarboard</h2>
-        
+        <img src="https://www.otsi-montoire.fr/wp-content/uploads/2020/11/Table-de-ping-pong-2.jpg" alt="Table-de-ping-pong-2" class="stripe-w-img">
+        <h3 class="stripe-w-h3">Scores</h3>
+        <div class="settings">
+        <label for="maxPoint">Playing to</label>
+        <select name="maxPoint" id="maxPoint">
+          <option value="7">7</option>
+          <option value="9">9</option>
+          <option value="11">11</option>
+        </select>
+      </div>
+        <p class="score"><span class="scoreP1"></span> to <span class="scoreP2"></span></p>
+        <div class="buttons">
+          <button id="p1">Player 1</button>
+          <button id="reset">Reset</button>
+          <button id="p2">Player 2</button>
+        </div>
       </section>
       
       <script src="scoarbord.js"></script>

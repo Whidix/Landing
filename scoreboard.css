@@ -1,0 +1,22 @@
+button {
+  font-size: 1.5em;
+  background-color: white;
+  border: 2px solid #1f2937;
+  border-radius: 5%;
+}
+
+button:active {
+  border-color: #7da7e2;
+}
+
+.settings {
+  font-size: 1.5em;
+}
+
+select {
+  font-size: 1em;
+}
+
+.score {
+  font-size: 2em;
+}
