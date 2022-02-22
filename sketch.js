@@ -13,6 +13,7 @@ sketch.addEventListener("mouseover", changeColor);
 
 function changeColor(e) {
   e.stopPropagation();
+  if (e.target.className === 'sketch') {return}
   e.target.style.backgroundColor = randomColor();
 }
 
