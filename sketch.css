@@ -1,0 +1,17 @@
+.sketch {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  width: 500px;
+}
+
+.draw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+}
